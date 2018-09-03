@@ -4,22 +4,15 @@ import Logica.circulo;
 import Logica.cuadrado;
 import Logica.rectangulo;
 import Logica.triangulo;
-
 public class FigurasBasicas {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         cuadrado cd = new cuadrado();
         rectangulo rt=new rectangulo();
         triangulo tr = new triangulo();
         circulo cr =new circulo();
-        System.out.println("DIGITE UN NUMERO PARA CALCULAR BASE Y ALTURA:\n "
-                + "1. circulo \n"
-                + "2.triangulo \n"
-                + "3. rectangulo \n"
-                + "4. cuadrado");
+        System.out.println("DIGITE UN NUMERO PARA CALCULAR BASE Y ALTURA:\n1. circulo \n2.triangulo \n3. rectangulo \n4. cuadrado");
         int x;
-        
         x=sc.nextInt();
         switch(x)
         {
@@ -50,11 +43,7 @@ public class FigurasBasicas {
                     cd.setLado(sc.nextFloat());
                     cd.area();
                     cd.perimetro();
-                    break;
-                   
+                    break;   
         }
-        
-        
-    }
-    
+    } 
 }

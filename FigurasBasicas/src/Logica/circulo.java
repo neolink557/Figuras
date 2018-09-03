@@ -1,21 +1,12 @@
-
 package Logica;
-
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
-
 public class circulo extends Basic {
    protected float radio;
-   
-   
    public void setRadio(float x)
    {
        this.radio=x;
    }
-      
-     
-    
-
     @Override
     public void area() {
          super.area=pow(this.radio,2);
@@ -25,7 +16,6 @@ public class circulo extends Basic {
         
         super.area(); //To change body of generated methods, choose Tools | Templates.
     }
-   
     @Override
     public void perimetro() {
        super.perimetro=2*PI*radio;
@@ -33,9 +23,4 @@ public class circulo extends Basic {
         
         super.perimetro(); //To change body of generated methods, choose Tools | Templates.
     }
-   
-    
-    
-  
-    
 }

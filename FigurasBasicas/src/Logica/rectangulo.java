@@ -1,12 +1,7 @@
 package Logica;
-
-
 public class rectangulo extends Basic {
      private float base;
     private float altura;
-
-    
-    
     public void setBase(float x)
     {
         this.base=x;
@@ -21,7 +16,6 @@ public class rectangulo extends Basic {
         System.out.println("El area del rectangulo es:" + super.area);
         super.area(); //To change body of generated methods, choose Tools | Templates.
     }
-
     @Override
     public void perimetro() {
         super.perimetro=(2*base)+(2*altura);
